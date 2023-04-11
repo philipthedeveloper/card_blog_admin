@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  width: 100%;
+  border-radius: 0.8rem;
+  transition: 0.4s ease;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+a:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
